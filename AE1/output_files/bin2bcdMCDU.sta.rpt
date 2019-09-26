@@ -1,0 +1,543 @@
+TimeQuest Timing Analyzer report for bin2bcdMCDU
+Tue Sep 24 21:42:48 2019
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; bin2bcdMCDU                                                        ;
+; Device Family      ; Cyclone                                                            ;
+; Device Name        ; EP1C3T100A8                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Slow Model                                                         ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 40          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-40        ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++--------------------------------------------------------+
+; Propagation Delay                                      ;
++------------+-------------+---------+----+----+---------+
+; Input Port ; Output Port ; RR      ; RF ; FR ; FF      ;
++------------+-------------+---------+----+----+---------+
+; X_bin[0]   ; U_bcd[0]    ; 8.781   ;    ;    ; 8.781   ;
+; X_bin[1]   ; D_bcd[0]    ; 14.655  ;    ;    ; 14.655  ;
+; X_bin[1]   ; U_bcd[1]    ; 16.986  ;    ;    ; 16.986  ;
+; X_bin[1]   ; U_bcd[2]    ; 17.410  ;    ;    ; 17.410  ;
+; X_bin[1]   ; U_bcd[3]    ; 17.306  ;    ;    ; 17.306  ;
+; X_bin[2]   ; C_bcd[0]    ; 14.015  ;    ;    ; 14.015  ;
+; X_bin[2]   ; D_bcd[0]    ; 63.751  ;    ;    ; 63.751  ;
+; X_bin[2]   ; D_bcd[1]    ; 58.780  ;    ;    ; 58.780  ;
+; X_bin[2]   ; D_bcd[2]    ; 53.942  ;    ;    ; 53.942  ;
+; X_bin[2]   ; D_bcd[3]    ; 50.449  ;    ;    ; 50.449  ;
+; X_bin[2]   ; U_bcd[1]    ; 66.082  ;    ;    ; 66.082  ;
+; X_bin[2]   ; U_bcd[2]    ; 66.506  ;    ;    ; 66.506  ;
+; X_bin[2]   ; U_bcd[3]    ; 66.402  ;    ;    ; 66.402  ;
+; X_bin[3]   ; C_bcd[0]    ; 59.166  ;    ;    ; 59.166  ;
+; X_bin[3]   ; C_bcd[1]    ; 55.149  ;    ;    ; 55.149  ;
+; X_bin[3]   ; C_bcd[2]    ; 50.443  ;    ;    ; 50.443  ;
+; X_bin[3]   ; C_bcd[3]    ; 43.377  ;    ;    ; 43.377  ;
+; X_bin[3]   ; D_bcd[0]    ; 108.902 ;    ;    ; 108.902 ;
+; X_bin[3]   ; D_bcd[1]    ; 103.931 ;    ;    ; 103.931 ;
+; X_bin[3]   ; D_bcd[2]    ; 99.093  ;    ;    ; 99.093  ;
+; X_bin[3]   ; D_bcd[3]    ; 95.600  ;    ;    ; 95.600  ;
+; X_bin[3]   ; M_bcd[0]    ; 14.002  ;    ;    ; 14.002  ;
+; X_bin[3]   ; U_bcd[1]    ; 111.233 ;    ;    ; 111.233 ;
+; X_bin[3]   ; U_bcd[2]    ; 111.657 ;    ;    ; 111.657 ;
+; X_bin[3]   ; U_bcd[3]    ; 111.553 ;    ;    ; 111.553 ;
+; X_bin[4]   ; C_bcd[0]    ; 64.300  ;    ;    ; 64.300  ;
+; X_bin[4]   ; C_bcd[1]    ; 60.283  ;    ;    ; 60.283  ;
+; X_bin[4]   ; C_bcd[2]    ; 55.577  ;    ;    ; 55.577  ;
+; X_bin[4]   ; C_bcd[3]    ; 48.511  ;    ;    ; 48.511  ;
+; X_bin[4]   ; D_bcd[0]    ; 114.036 ;    ;    ; 114.036 ;
+; X_bin[4]   ; D_bcd[1]    ; 109.065 ;    ;    ; 109.065 ;
+; X_bin[4]   ; D_bcd[2]    ; 104.227 ;    ;    ; 104.227 ;
+; X_bin[4]   ; D_bcd[3]    ; 100.734 ;    ;    ; 100.734 ;
+; X_bin[4]   ; M_bcd[0]    ; 19.136  ;    ;    ; 19.136  ;
+; X_bin[4]   ; M_bcd[1]    ; 14.754  ;    ;    ; 14.754  ;
+; X_bin[4]   ; U_bcd[1]    ; 116.367 ;    ;    ; 116.367 ;
+; X_bin[4]   ; U_bcd[2]    ; 116.791 ;    ;    ; 116.791 ;
+; X_bin[4]   ; U_bcd[3]    ; 116.687 ;    ;    ; 116.687 ;
+; X_bin[5]   ; C_bcd[0]    ; 68.871  ;    ;    ; 68.871  ;
+; X_bin[5]   ; C_bcd[1]    ; 64.854  ;    ;    ; 64.854  ;
+; X_bin[5]   ; C_bcd[2]    ; 60.148  ;    ;    ; 60.148  ;
+; X_bin[5]   ; C_bcd[3]    ; 53.082  ;    ;    ; 53.082  ;
+; X_bin[5]   ; D_bcd[0]    ; 118.607 ;    ;    ; 118.607 ;
+; X_bin[5]   ; D_bcd[1]    ; 113.636 ;    ;    ; 113.636 ;
+; X_bin[5]   ; D_bcd[2]    ; 108.798 ;    ;    ; 108.798 ;
+; X_bin[5]   ; D_bcd[3]    ; 105.305 ;    ;    ; 105.305 ;
+; X_bin[5]   ; M_bcd[0]    ; 23.707  ;    ;    ; 23.707  ;
+; X_bin[5]   ; M_bcd[1]    ; 19.325  ;    ;    ; 19.325  ;
+; X_bin[5]   ; M_bcd[2]    ; 14.459  ;    ;    ; 14.459  ;
+; X_bin[5]   ; U_bcd[1]    ; 120.938 ;    ;    ; 120.938 ;
+; X_bin[5]   ; U_bcd[2]    ; 121.362 ;    ;    ; 121.362 ;
+; X_bin[5]   ; U_bcd[3]    ; 121.258 ;    ;    ; 121.258 ;
+; X_bin[6]   ; C_bcd[0]    ; 74.499  ;    ;    ; 74.499  ;
+; X_bin[6]   ; C_bcd[1]    ; 70.482  ;    ;    ; 70.482  ;
+; X_bin[6]   ; C_bcd[2]    ; 65.776  ;    ;    ; 65.776  ;
+; X_bin[6]   ; C_bcd[3]    ; 58.710  ;    ;    ; 58.710  ;
+; X_bin[6]   ; D_bcd[0]    ; 124.235 ;    ;    ; 124.235 ;
+; X_bin[6]   ; D_bcd[1]    ; 119.264 ;    ;    ; 119.264 ;
+; X_bin[6]   ; D_bcd[2]    ; 114.426 ;    ;    ; 114.426 ;
+; X_bin[6]   ; D_bcd[3]    ; 110.933 ;    ;    ; 110.933 ;
+; X_bin[6]   ; M_bcd[0]    ; 29.335  ;    ;    ; 29.335  ;
+; X_bin[6]   ; M_bcd[1]    ; 24.953  ;    ;    ; 24.953  ;
+; X_bin[6]   ; M_bcd[2]    ; 20.087  ;    ;    ; 20.087  ;
+; X_bin[6]   ; M_bcd[3]    ; 16.451  ;    ;    ; 16.451  ;
+; X_bin[6]   ; U_bcd[1]    ; 126.566 ;    ;    ; 126.566 ;
+; X_bin[6]   ; U_bcd[2]    ; 126.990 ;    ;    ; 126.990 ;
+; X_bin[6]   ; U_bcd[3]    ; 126.886 ;    ;    ; 126.886 ;
+; X_bin[7]   ; C_bcd[0]    ; 77.513  ;    ;    ; 77.513  ;
+; X_bin[7]   ; C_bcd[1]    ; 73.496  ;    ;    ; 73.496  ;
+; X_bin[7]   ; C_bcd[2]    ; 68.790  ;    ;    ; 68.790  ;
+; X_bin[7]   ; C_bcd[3]    ; 61.724  ;    ;    ; 61.724  ;
+; X_bin[7]   ; D_bcd[0]    ; 127.249 ;    ;    ; 127.249 ;
+; X_bin[7]   ; D_bcd[1]    ; 122.278 ;    ;    ; 122.278 ;
+; X_bin[7]   ; D_bcd[2]    ; 117.440 ;    ;    ; 117.440 ;
+; X_bin[7]   ; D_bcd[3]    ; 113.947 ;    ;    ; 113.947 ;
+; X_bin[7]   ; M_bcd[0]    ; 32.349  ;    ;    ; 32.349  ;
+; X_bin[7]   ; M_bcd[1]    ; 27.967  ;    ;    ; 27.967  ;
+; X_bin[7]   ; M_bcd[2]    ; 23.101  ;    ;    ; 23.101  ;
+; X_bin[7]   ; M_bcd[3]    ; 19.465  ;    ;    ; 19.465  ;
+; X_bin[7]   ; U_bcd[1]    ; 129.580 ;    ;    ; 129.580 ;
+; X_bin[7]   ; U_bcd[2]    ; 130.004 ;    ;    ; 130.004 ;
+; X_bin[7]   ; U_bcd[3]    ; 129.900 ;    ;    ; 129.900 ;
+; X_bin[8]   ; C_bcd[0]    ; 75.638  ;    ;    ; 75.638  ;
+; X_bin[8]   ; C_bcd[1]    ; 71.621  ;    ;    ; 71.621  ;
+; X_bin[8]   ; C_bcd[2]    ; 66.915  ;    ;    ; 66.915  ;
+; X_bin[8]   ; C_bcd[3]    ; 59.849  ;    ;    ; 59.849  ;
+; X_bin[8]   ; D_bcd[0]    ; 125.374 ;    ;    ; 125.374 ;
+; X_bin[8]   ; D_bcd[1]    ; 120.403 ;    ;    ; 120.403 ;
+; X_bin[8]   ; D_bcd[2]    ; 115.565 ;    ;    ; 115.565 ;
+; X_bin[8]   ; D_bcd[3]    ; 112.072 ;    ;    ; 112.072 ;
+; X_bin[8]   ; M_bcd[0]    ; 30.474  ;    ;    ; 30.474  ;
+; X_bin[8]   ; M_bcd[1]    ; 26.092  ;    ;    ; 26.092  ;
+; X_bin[8]   ; M_bcd[2]    ; 21.226  ;    ;    ; 21.226  ;
+; X_bin[8]   ; M_bcd[3]    ; 17.590  ;    ;    ; 17.590  ;
+; X_bin[8]   ; U_bcd[1]    ; 127.705 ;    ;    ; 127.705 ;
+; X_bin[8]   ; U_bcd[2]    ; 128.129 ;    ;    ; 128.129 ;
+; X_bin[8]   ; U_bcd[3]    ; 128.025 ;    ;    ; 128.025 ;
+; X_bin[9]   ; C_bcd[0]    ; 70.989  ;    ;    ; 70.989  ;
+; X_bin[9]   ; C_bcd[1]    ; 66.972  ;    ;    ; 66.972  ;
+; X_bin[9]   ; C_bcd[2]    ; 62.266  ;    ;    ; 62.266  ;
+; X_bin[9]   ; C_bcd[3]    ; 55.200  ;    ;    ; 55.200  ;
+; X_bin[9]   ; D_bcd[0]    ; 120.725 ;    ;    ; 120.725 ;
+; X_bin[9]   ; D_bcd[1]    ; 115.754 ;    ;    ; 115.754 ;
+; X_bin[9]   ; D_bcd[2]    ; 110.916 ;    ;    ; 110.916 ;
+; X_bin[9]   ; D_bcd[3]    ; 107.423 ;    ;    ; 107.423 ;
+; X_bin[9]   ; M_bcd[0]    ; 25.825  ;    ;    ; 25.825  ;
+; X_bin[9]   ; M_bcd[1]    ; 21.443  ;    ;    ; 21.443  ;
+; X_bin[9]   ; M_bcd[2]    ; 16.577  ;    ;    ; 16.577  ;
+; X_bin[9]   ; M_bcd[3]    ; 12.941  ;    ;    ; 12.941  ;
+; X_bin[9]   ; U_bcd[1]    ; 123.056 ;    ;    ; 123.056 ;
+; X_bin[9]   ; U_bcd[2]    ; 123.480 ;    ;    ; 123.480 ;
+; X_bin[9]   ; U_bcd[3]    ; 123.376 ;    ;    ; 123.376 ;
+; X_bin[10]  ; C_bcd[0]    ; 75.188  ;    ;    ; 75.188  ;
+; X_bin[10]  ; C_bcd[1]    ; 71.171  ;    ;    ; 71.171  ;
+; X_bin[10]  ; C_bcd[2]    ; 66.465  ;    ;    ; 66.465  ;
+; X_bin[10]  ; C_bcd[3]    ; 59.399  ;    ;    ; 59.399  ;
+; X_bin[10]  ; D_bcd[0]    ; 124.924 ;    ;    ; 124.924 ;
+; X_bin[10]  ; D_bcd[1]    ; 119.953 ;    ;    ; 119.953 ;
+; X_bin[10]  ; D_bcd[2]    ; 115.115 ;    ;    ; 115.115 ;
+; X_bin[10]  ; D_bcd[3]    ; 111.622 ;    ;    ; 111.622 ;
+; X_bin[10]  ; M_bcd[0]    ; 30.024  ;    ;    ; 30.024  ;
+; X_bin[10]  ; M_bcd[1]    ; 25.642  ;    ;    ; 25.642  ;
+; X_bin[10]  ; M_bcd[2]    ; 20.776  ;    ;    ; 20.776  ;
+; X_bin[10]  ; M_bcd[3]    ; 17.140  ;    ;    ; 17.140  ;
+; X_bin[10]  ; U_bcd[1]    ; 127.255 ;    ;    ; 127.255 ;
+; X_bin[10]  ; U_bcd[2]    ; 127.679 ;    ;    ; 127.679 ;
+; X_bin[10]  ; U_bcd[3]    ; 127.575 ;    ;    ; 127.575 ;
+; X_bin[11]  ; C_bcd[0]    ; 75.456  ;    ;    ; 75.456  ;
+; X_bin[11]  ; C_bcd[1]    ; 71.439  ;    ;    ; 71.439  ;
+; X_bin[11]  ; C_bcd[2]    ; 66.733  ;    ;    ; 66.733  ;
+; X_bin[11]  ; C_bcd[3]    ; 59.667  ;    ;    ; 59.667  ;
+; X_bin[11]  ; D_bcd[0]    ; 125.192 ;    ;    ; 125.192 ;
+; X_bin[11]  ; D_bcd[1]    ; 120.221 ;    ;    ; 120.221 ;
+; X_bin[11]  ; D_bcd[2]    ; 115.383 ;    ;    ; 115.383 ;
+; X_bin[11]  ; D_bcd[3]    ; 111.890 ;    ;    ; 111.890 ;
+; X_bin[11]  ; M_bcd[0]    ; 30.292  ;    ;    ; 30.292  ;
+; X_bin[11]  ; M_bcd[1]    ; 25.910  ;    ;    ; 25.910  ;
+; X_bin[11]  ; M_bcd[2]    ; 21.044  ;    ;    ; 21.044  ;
+; X_bin[11]  ; M_bcd[3]    ; 17.408  ;    ;    ; 17.408  ;
+; X_bin[11]  ; U_bcd[1]    ; 127.523 ;    ;    ; 127.523 ;
+; X_bin[11]  ; U_bcd[2]    ; 127.947 ;    ;    ; 127.947 ;
+; X_bin[11]  ; U_bcd[3]    ; 127.843 ;    ;    ; 127.843 ;
+; X_bin[12]  ; C_bcd[0]    ; 74.612  ;    ;    ; 74.612  ;
+; X_bin[12]  ; C_bcd[1]    ; 70.595  ;    ;    ; 70.595  ;
+; X_bin[12]  ; C_bcd[2]    ; 65.889  ;    ;    ; 65.889  ;
+; X_bin[12]  ; C_bcd[3]    ; 58.823  ;    ;    ; 58.823  ;
+; X_bin[12]  ; D_bcd[0]    ; 124.348 ;    ;    ; 124.348 ;
+; X_bin[12]  ; D_bcd[1]    ; 119.377 ;    ;    ; 119.377 ;
+; X_bin[12]  ; D_bcd[2]    ; 114.539 ;    ;    ; 114.539 ;
+; X_bin[12]  ; D_bcd[3]    ; 111.046 ;    ;    ; 111.046 ;
+; X_bin[12]  ; M_bcd[0]    ; 29.448  ;    ;    ; 29.448  ;
+; X_bin[12]  ; M_bcd[1]    ; 25.066  ;    ;    ; 25.066  ;
+; X_bin[12]  ; M_bcd[2]    ; 20.200  ;    ;    ; 20.200  ;
+; X_bin[12]  ; M_bcd[3]    ; 16.564  ;    ;    ; 16.564  ;
+; X_bin[12]  ; U_bcd[1]    ; 126.679 ;    ;    ; 126.679 ;
+; X_bin[12]  ; U_bcd[2]    ; 127.103 ;    ;    ; 127.103 ;
+; X_bin[12]  ; U_bcd[3]    ; 126.999 ;    ;    ; 126.999 ;
+; X_bin[13]  ; C_bcd[0]    ; 74.507  ;    ;    ; 74.507  ;
+; X_bin[13]  ; C_bcd[1]    ; 70.490  ;    ;    ; 70.490  ;
+; X_bin[13]  ; C_bcd[2]    ; 65.784  ;    ;    ; 65.784  ;
+; X_bin[13]  ; C_bcd[3]    ; 58.718  ;    ;    ; 58.718  ;
+; X_bin[13]  ; D_bcd[0]    ; 124.243 ;    ;    ; 124.243 ;
+; X_bin[13]  ; D_bcd[1]    ; 119.272 ;    ;    ; 119.272 ;
+; X_bin[13]  ; D_bcd[2]    ; 114.434 ;    ;    ; 114.434 ;
+; X_bin[13]  ; D_bcd[3]    ; 110.941 ;    ;    ; 110.941 ;
+; X_bin[13]  ; M_bcd[0]    ; 29.343  ;    ;    ; 29.343  ;
+; X_bin[13]  ; M_bcd[1]    ; 24.961  ;    ;    ; 24.961  ;
+; X_bin[13]  ; M_bcd[2]    ; 20.095  ;    ;    ; 20.095  ;
+; X_bin[13]  ; M_bcd[3]    ; 16.459  ;    ;    ; 16.459  ;
+; X_bin[13]  ; U_bcd[1]    ; 126.574 ;    ;    ; 126.574 ;
+; X_bin[13]  ; U_bcd[2]    ; 126.998 ;    ;    ; 126.998 ;
+; X_bin[13]  ; U_bcd[3]    ; 126.894 ;    ;    ; 126.894 ;
++------------+-------------+---------+----+----+---------+
+
+
++------------------------------------------------------+
+; Minimum Propagation Delay                            ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; X_bin[0]   ; U_bcd[0]    ; 8.781  ;    ;    ; 8.781  ;
+; X_bin[1]   ; D_bcd[0]    ; 14.440 ;    ;    ; 14.440 ;
+; X_bin[1]   ; U_bcd[1]    ; 12.448 ;    ;    ; 12.448 ;
+; X_bin[1]   ; U_bcd[2]    ; 12.864 ;    ;    ; 12.864 ;
+; X_bin[1]   ; U_bcd[3]    ; 12.758 ;    ;    ; 12.758 ;
+; X_bin[2]   ; C_bcd[0]    ; 13.841 ;    ;    ; 13.841 ;
+; X_bin[2]   ; D_bcd[0]    ; 14.496 ;    ;    ; 14.496 ;
+; X_bin[2]   ; D_bcd[1]    ; 15.979 ;    ;    ; 15.979 ;
+; X_bin[2]   ; D_bcd[2]    ; 15.472 ;    ;    ; 15.472 ;
+; X_bin[2]   ; D_bcd[3]    ; 16.871 ;    ;    ; 16.871 ;
+; X_bin[2]   ; U_bcd[1]    ; 16.827 ;    ;    ; 16.827 ;
+; X_bin[2]   ; U_bcd[2]    ; 13.011 ;    ;    ; 13.011 ;
+; X_bin[2]   ; U_bcd[3]    ; 13.412 ;    ;    ; 13.412 ;
+; X_bin[3]   ; C_bcd[0]    ; 16.140 ;    ;    ; 16.140 ;
+; X_bin[3]   ; C_bcd[1]    ; 17.024 ;    ;    ; 17.024 ;
+; X_bin[3]   ; C_bcd[2]    ; 17.532 ;    ;    ; 17.532 ;
+; X_bin[3]   ; C_bcd[3]    ; 17.669 ;    ;    ; 17.669 ;
+; X_bin[3]   ; D_bcd[0]    ; 17.203 ;    ;    ; 17.203 ;
+; X_bin[3]   ; D_bcd[1]    ; 17.321 ;    ;    ; 17.321 ;
+; X_bin[3]   ; D_bcd[2]    ; 17.245 ;    ;    ; 17.245 ;
+; X_bin[3]   ; D_bcd[3]    ; 18.954 ;    ;    ; 18.954 ;
+; X_bin[3]   ; M_bcd[0]    ; 13.845 ;    ;    ; 13.845 ;
+; X_bin[3]   ; U_bcd[1]    ; 19.534 ;    ;    ; 19.534 ;
+; X_bin[3]   ; U_bcd[2]    ; 19.531 ;    ;    ; 19.531 ;
+; X_bin[3]   ; U_bcd[3]    ; 14.983 ;    ;    ; 14.983 ;
+; X_bin[4]   ; C_bcd[0]    ; 16.876 ;    ;    ; 16.876 ;
+; X_bin[4]   ; C_bcd[1]    ; 17.073 ;    ;    ; 17.073 ;
+; X_bin[4]   ; C_bcd[2]    ; 17.581 ;    ;    ; 17.581 ;
+; X_bin[4]   ; C_bcd[3]    ; 18.218 ;    ;    ; 18.218 ;
+; X_bin[4]   ; D_bcd[0]    ; 20.204 ;    ;    ; 20.204 ;
+; X_bin[4]   ; D_bcd[1]    ; 18.035 ;    ;    ; 18.035 ;
+; X_bin[4]   ; D_bcd[2]    ; 17.433 ;    ;    ; 17.433 ;
+; X_bin[4]   ; D_bcd[3]    ; 19.495 ;    ;    ; 19.495 ;
+; X_bin[4]   ; M_bcd[0]    ; 13.747 ;    ;    ; 13.747 ;
+; X_bin[4]   ; M_bcd[1]    ; 14.735 ;    ;    ; 14.735 ;
+; X_bin[4]   ; U_bcd[1]    ; 22.535 ;    ;    ; 22.535 ;
+; X_bin[4]   ; U_bcd[2]    ; 20.245 ;    ;    ; 20.245 ;
+; X_bin[4]   ; U_bcd[3]    ; 19.328 ;    ;    ; 19.328 ;
+; X_bin[5]   ; C_bcd[0]    ; 17.254 ;    ;    ; 17.254 ;
+; X_bin[5]   ; C_bcd[1]    ; 15.997 ;    ;    ; 15.997 ;
+; X_bin[5]   ; C_bcd[2]    ; 16.457 ;    ;    ; 16.457 ;
+; X_bin[5]   ; C_bcd[3]    ; 17.060 ;    ;    ; 17.060 ;
+; X_bin[5]   ; D_bcd[0]    ; 20.980 ;    ;    ; 20.980 ;
+; X_bin[5]   ; D_bcd[1]    ; 20.183 ;    ;    ; 20.183 ;
+; X_bin[5]   ; D_bcd[2]    ; 18.297 ;    ;    ; 18.297 ;
+; X_bin[5]   ; D_bcd[3]    ; 18.405 ;    ;    ; 18.405 ;
+; X_bin[5]   ; M_bcd[0]    ; 13.311 ;    ;    ; 13.311 ;
+; X_bin[5]   ; M_bcd[1]    ; 13.005 ;    ;    ; 13.005 ;
+; X_bin[5]   ; M_bcd[2]    ; 14.440 ;    ;    ; 14.440 ;
+; X_bin[5]   ; U_bcd[1]    ; 23.311 ;    ;    ; 23.311 ;
+; X_bin[5]   ; U_bcd[2]    ; 20.838 ;    ;    ; 20.838 ;
+; X_bin[5]   ; U_bcd[3]    ; 18.760 ;    ;    ; 18.760 ;
+; X_bin[6]   ; C_bcd[0]    ; 20.995 ;    ;    ; 20.995 ;
+; X_bin[6]   ; C_bcd[1]    ; 20.700 ;    ;    ; 20.700 ;
+; X_bin[6]   ; C_bcd[2]    ; 18.590 ;    ;    ; 18.590 ;
+; X_bin[6]   ; C_bcd[3]    ; 17.975 ;    ;    ; 17.975 ;
+; X_bin[6]   ; D_bcd[0]    ; 23.737 ;    ;    ; 23.737 ;
+; X_bin[6]   ; D_bcd[1]    ; 22.218 ;    ;    ; 22.218 ;
+; X_bin[6]   ; D_bcd[2]    ; 19.094 ;    ;    ; 19.094 ;
+; X_bin[6]   ; D_bcd[3]    ; 19.202 ;    ;    ; 19.202 ;
+; X_bin[6]   ; M_bcd[0]    ; 15.936 ;    ;    ; 15.936 ;
+; X_bin[6]   ; M_bcd[1]    ; 15.051 ;    ;    ; 15.051 ;
+; X_bin[6]   ; M_bcd[2]    ; 13.961 ;    ;    ; 13.961 ;
+; X_bin[6]   ; M_bcd[3]    ; 16.430 ;    ;    ; 16.430 ;
+; X_bin[6]   ; U_bcd[1]    ; 26.068 ;    ;    ; 26.068 ;
+; X_bin[6]   ; U_bcd[2]    ; 24.428 ;    ;    ; 24.428 ;
+; X_bin[6]   ; U_bcd[3]    ; 21.517 ;    ;    ; 21.517 ;
+; X_bin[7]   ; C_bcd[0]    ; 21.197 ;    ;    ; 21.197 ;
+; X_bin[7]   ; C_bcd[1]    ; 21.243 ;    ;    ; 21.243 ;
+; X_bin[7]   ; C_bcd[2]    ; 19.834 ;    ;    ; 19.834 ;
+; X_bin[7]   ; C_bcd[3]    ; 16.721 ;    ;    ; 16.721 ;
+; X_bin[7]   ; D_bcd[0]    ; 22.584 ;    ;    ; 22.584 ;
+; X_bin[7]   ; D_bcd[1]    ; 22.209 ;    ;    ; 22.209 ;
+; X_bin[7]   ; D_bcd[2]    ; 20.276 ;    ;    ; 20.276 ;
+; X_bin[7]   ; D_bcd[3]    ; 18.971 ;    ;    ; 18.971 ;
+; X_bin[7]   ; M_bcd[0]    ; 14.783 ;    ;    ; 14.783 ;
+; X_bin[7]   ; M_bcd[1]    ; 14.366 ;    ;    ; 14.366 ;
+; X_bin[7]   ; M_bcd[2]    ; 12.956 ;    ;    ; 12.956 ;
+; X_bin[7]   ; M_bcd[3]    ; 13.790 ;    ;    ; 13.790 ;
+; X_bin[7]   ; U_bcd[1]    ; 24.915 ;    ;    ; 24.915 ;
+; X_bin[7]   ; U_bcd[2]    ; 24.419 ;    ;    ; 24.419 ;
+; X_bin[7]   ; U_bcd[3]    ; 20.364 ;    ;    ; 20.364 ;
+; X_bin[8]   ; C_bcd[0]    ; 23.032 ;    ;    ; 23.032 ;
+; X_bin[8]   ; C_bcd[1]    ; 20.769 ;    ;    ; 20.769 ;
+; X_bin[8]   ; C_bcd[2]    ; 20.372 ;    ;    ; 20.372 ;
+; X_bin[8]   ; C_bcd[3]    ; 17.777 ;    ;    ; 17.777 ;
+; X_bin[8]   ; D_bcd[0]    ; 24.830 ;    ;    ; 24.830 ;
+; X_bin[8]   ; D_bcd[1]    ; 24.191 ;    ;    ; 24.191 ;
+; X_bin[8]   ; D_bcd[2]    ; 21.580 ;    ;    ; 21.580 ;
+; X_bin[8]   ; D_bcd[3]    ; 21.601 ;    ;    ; 21.601 ;
+; X_bin[8]   ; M_bcd[0]    ; 17.029 ;    ;    ; 17.029 ;
+; X_bin[8]   ; M_bcd[1]    ; 16.201 ;    ;    ; 16.201 ;
+; X_bin[8]   ; M_bcd[2]    ; 13.607 ;    ;    ; 13.607 ;
+; X_bin[8]   ; M_bcd[3]    ; 13.971 ;    ;    ; 13.971 ;
+; X_bin[8]   ; U_bcd[1]    ; 27.161 ;    ;    ; 27.161 ;
+; X_bin[8]   ; U_bcd[2]    ; 26.401 ;    ;    ; 26.401 ;
+; X_bin[8]   ; U_bcd[3]    ; 22.610 ;    ;    ; 22.610 ;
+; X_bin[9]   ; C_bcd[0]    ; 17.808 ;    ;    ; 17.808 ;
+; X_bin[9]   ; C_bcd[1]    ; 17.668 ;    ;    ; 17.668 ;
+; X_bin[9]   ; C_bcd[2]    ; 17.006 ;    ;    ; 17.006 ;
+; X_bin[9]   ; C_bcd[3]    ; 13.430 ;    ;    ; 13.430 ;
+; X_bin[9]   ; D_bcd[0]    ; 19.880 ;    ;    ; 19.880 ;
+; X_bin[9]   ; D_bcd[1]    ; 18.967 ;    ;    ; 18.967 ;
+; X_bin[9]   ; D_bcd[2]    ; 17.814 ;    ;    ; 17.814 ;
+; X_bin[9]   ; D_bcd[3]    ; 17.835 ;    ;    ; 17.835 ;
+; X_bin[9]   ; M_bcd[0]    ; 12.079 ;    ;    ; 12.079 ;
+; X_bin[9]   ; M_bcd[1]    ; 10.977 ;    ;    ; 10.977 ;
+; X_bin[9]   ; M_bcd[2]    ; 9.278  ;    ;    ; 9.278  ;
+; X_bin[9]   ; M_bcd[3]    ; 10.449 ;    ;    ; 10.449 ;
+; X_bin[9]   ; U_bcd[1]    ; 22.211 ;    ;    ; 22.211 ;
+; X_bin[9]   ; U_bcd[2]    ; 21.177 ;    ;    ; 21.177 ;
+; X_bin[9]   ; U_bcd[3]    ; 17.660 ;    ;    ; 17.660 ;
+; X_bin[10]  ; C_bcd[0]    ; 22.584 ;    ;    ; 22.584 ;
+; X_bin[10]  ; C_bcd[1]    ; 22.010 ;    ;    ; 22.010 ;
+; X_bin[10]  ; C_bcd[2]    ; 21.436 ;    ;    ; 21.436 ;
+; X_bin[10]  ; C_bcd[3]    ; 17.319 ;    ;    ; 17.319 ;
+; X_bin[10]  ; D_bcd[0]    ; 24.316 ;    ;    ; 24.316 ;
+; X_bin[10]  ; D_bcd[1]    ; 23.743 ;    ;    ; 23.743 ;
+; X_bin[10]  ; D_bcd[2]    ; 22.691 ;    ;    ; 22.691 ;
+; X_bin[10]  ; D_bcd[3]    ; 22.799 ;    ;    ; 22.799 ;
+; X_bin[10]  ; M_bcd[0]    ; 16.515 ;    ;    ; 16.515 ;
+; X_bin[10]  ; M_bcd[1]    ; 15.753 ;    ;    ; 15.753 ;
+; X_bin[10]  ; M_bcd[2]    ; 13.620 ;    ;    ; 13.620 ;
+; X_bin[10]  ; M_bcd[3]    ; 13.791 ;    ;    ; 13.791 ;
+; X_bin[10]  ; U_bcd[1]    ; 26.647 ;    ;    ; 26.647 ;
+; X_bin[10]  ; U_bcd[2]    ; 25.953 ;    ;    ; 25.953 ;
+; X_bin[10]  ; U_bcd[3]    ; 22.096 ;    ;    ; 22.096 ;
+; X_bin[11]  ; C_bcd[0]    ; 22.997 ;    ;    ; 22.997 ;
+; X_bin[11]  ; C_bcd[1]    ; 22.050 ;    ;    ; 22.050 ;
+; X_bin[11]  ; C_bcd[2]    ; 22.274 ;    ;    ; 22.274 ;
+; X_bin[11]  ; C_bcd[3]    ; 20.688 ;    ;    ; 20.688 ;
+; X_bin[11]  ; D_bcd[0]    ; 25.514 ;    ;    ; 25.514 ;
+; X_bin[11]  ; D_bcd[1]    ; 24.156 ;    ;    ; 24.156 ;
+; X_bin[11]  ; D_bcd[2]    ; 22.778 ;    ;    ; 22.778 ;
+; X_bin[11]  ; D_bcd[3]    ; 22.886 ;    ;    ; 22.886 ;
+; X_bin[11]  ; M_bcd[0]    ; 17.713 ;    ;    ; 17.713 ;
+; X_bin[11]  ; M_bcd[1]    ; 16.166 ;    ;    ; 16.166 ;
+; X_bin[11]  ; M_bcd[2]    ; 13.660 ;    ;    ; 13.660 ;
+; X_bin[11]  ; M_bcd[3]    ; 13.878 ;    ;    ; 13.878 ;
+; X_bin[11]  ; U_bcd[1]    ; 27.845 ;    ;    ; 27.845 ;
+; X_bin[11]  ; U_bcd[2]    ; 26.366 ;    ;    ; 26.366 ;
+; X_bin[11]  ; U_bcd[3]    ; 23.294 ;    ;    ; 23.294 ;
+; X_bin[12]  ; C_bcd[0]    ; 22.435 ;    ;    ; 22.435 ;
+; X_bin[12]  ; C_bcd[1]    ; 21.178 ;    ;    ; 21.178 ;
+; X_bin[12]  ; C_bcd[2]    ; 21.638 ;    ;    ; 21.638 ;
+; X_bin[12]  ; C_bcd[3]    ; 19.672 ;    ;    ; 19.672 ;
+; X_bin[12]  ; D_bcd[0]    ; 24.642 ;    ;    ; 24.642 ;
+; X_bin[12]  ; D_bcd[1]    ; 24.206 ;    ;    ; 24.206 ;
+; X_bin[12]  ; D_bcd[2]    ; 22.753 ;    ;    ; 22.753 ;
+; X_bin[12]  ; D_bcd[3]    ; 22.861 ;    ;    ; 22.861 ;
+; X_bin[12]  ; M_bcd[0]    ; 16.841 ;    ;    ; 16.841 ;
+; X_bin[12]  ; M_bcd[1]    ; 16.216 ;    ;    ; 16.216 ;
+; X_bin[12]  ; M_bcd[2]    ; 12.788 ;    ;    ; 12.788 ;
+; X_bin[12]  ; M_bcd[3]    ; 13.853 ;    ;    ; 13.853 ;
+; X_bin[12]  ; U_bcd[1]    ; 26.973 ;    ;    ; 26.973 ;
+; X_bin[12]  ; U_bcd[2]    ; 26.019 ;    ;    ; 26.019 ;
+; X_bin[12]  ; U_bcd[3]    ; 22.422 ;    ;    ; 22.422 ;
+; X_bin[13]  ; C_bcd[0]    ; 23.659 ;    ;    ; 23.659 ;
+; X_bin[13]  ; C_bcd[1]    ; 23.330 ;    ;    ; 23.330 ;
+; X_bin[13]  ; C_bcd[2]    ; 21.634 ;    ;    ; 21.634 ;
+; X_bin[13]  ; C_bcd[3]    ; 19.936 ;    ;    ; 19.936 ;
+; X_bin[13]  ; D_bcd[0]    ; 25.053 ;    ;    ; 25.053 ;
+; X_bin[13]  ; D_bcd[1]    ; 24.818 ;    ;    ; 24.818 ;
+; X_bin[13]  ; D_bcd[2]    ; 22.138 ;    ;    ; 22.138 ;
+; X_bin[13]  ; D_bcd[3]    ; 22.246 ;    ;    ; 22.246 ;
+; X_bin[13]  ; M_bcd[0]    ; 17.252 ;    ;    ; 17.252 ;
+; X_bin[13]  ; M_bcd[1]    ; 16.828 ;    ;    ; 16.828 ;
+; X_bin[13]  ; M_bcd[2]    ; 14.940 ;    ;    ; 14.940 ;
+; X_bin[13]  ; M_bcd[3]    ; 13.238 ;    ;    ; 13.238 ;
+; X_bin[13]  ; U_bcd[1]    ; 27.384 ;    ;    ; 27.384 ;
+; X_bin[13]  ; U_bcd[2]    ; 27.028 ;    ;    ; 27.028 ;
+; X_bin[13]  ; U_bcd[3]    ; 22.833 ;    ;    ; 22.833 ;
++------------+-------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 14    ; 14   ;
+; Unconstrained Input Port Paths  ; 172   ; 172  ;
+; Unconstrained Output Ports      ; 16    ; 16   ;
+; Unconstrained Output Port Paths ; 172   ; 172  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Tue Sep 24 21:42:44 2019
+Info: Command: quartus_sta bin2bcdMCDU -c bin2bcdMCDU
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 40 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 16 of the 20 physical processors detected instead.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'bin2bcdMCDU.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 308 megabytes
+    Info: Processing ended: Tue Sep 24 21:42:48 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+

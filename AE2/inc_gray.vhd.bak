@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+--------------------------------------------------------
+entity inc_gray is
+	generic (N : natural := 4);
+	port
+	(
+		gray_in  : in std_logic_vector(N-1 downto 0);
+		gray_out  : out std_logic_vector(gray_in'left downto 0)
+	);
+end entity;
+--------------------------------------------------------
+architecture inc_gray of inc_gray is
+	signal bin : std_logic_vector(gray_in'left downto 0);
+begin
+	--converte para binario, soma 1, converte para gray
+	--loop: 
+	--for i in gray_in'left-1 downto 0 generate
+		--gray_out <= 
+	--end generate;
+	gray_out <= gray_in;
+end architecture;
+

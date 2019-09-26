@@ -1,0 +1,20 @@
+Quartus II Archive log --	/home/camilla.b/DLP/AE2/inc_gray.qarlog
+
+Archive:	/home/camilla.b/DLP/AE2/inc_gray.qar
+Date:		Wed Sep 25 19:26:23 2019
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+/home/camilla.b/DLP/AE2/RTL_Viewer.png
+/home/camilla.b/DLP/AE2/SimulationWaveform.png
+/home/camilla.b/DLP/AE2/inc_gray_restored/Waveform.vwf
+/home/camilla.b/DLP/AE2/inc_gray_restored/assignment_defaults.qdf
+/home/camilla.b/DLP/AE2/inc_gray_restored/db/inc_gray.sim.vwf
+/home/camilla.b/DLP/AE2/inc_gray_restored/inc_gray.qpf
+/home/camilla.b/DLP/AE2/inc_gray_restored/inc_gray.qsf
+/home/camilla.b/DLP/AE2/inc_gray_restored/inc_gray.vhd
+/home/camilla.b/DLP/AE2/inc_gray_restored/incremental_db/compiled_partitions/inc_gray.db_info
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
