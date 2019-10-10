@@ -43,7 +43,7 @@ begin
 	x_int <= to_integer(unsigned(x));
 	
 	l1: with x_int select
-	y <= 	"0000001" when 0,
+	y <= 		"0000001" when 0,
 			"1001111" when 1,
 			"0010010" when 2,
 			"0000110" when 3,
