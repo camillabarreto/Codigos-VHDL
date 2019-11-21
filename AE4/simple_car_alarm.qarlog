@@ -1,12 +1,24 @@
+Quartus II Archive log --	/home/camilla.b/DLP/AE4/Imagens/simple_car_alarm.qarlog
 
+Archive:	/home/camilla.b/DLP/AE4/Imagens/simple_car_alarm.qar
+Date:		Thu Nov 21 20:48:18 2019
+Quartus II 32-bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 
-******* Archived project restoration attempt on Fri Nov  8 13:02:43 2019
-Source archive file:	/home/camilla.b/DLP/ALARME/simple_car_alarm.qar
-Archive was extracted into	/home/camilla.b/DLP/ALARME/simple_car_alarm_restored/
-		 - successfully.
+	=========== Files Selected: ===========
+/home/camilla.b/DLP/AE4/Imagens/v5_fsm.png
+/home/camilla.b/DLP/AE4/Imagens/v5_rtl.png
+/home/camilla.b/DLP/AE4/Imagens/v5_sim.png
+/home/camilla.b/DLP/AE4/assignment_defaults.qdf
+/home/camilla.b/DLP/AE4/incremental_db/compiled_partitions/simple_car_alarm.db_info
+/home/camilla.b/DLP/AE4/simple_car_alarm.qpf
+/home/camilla.b/DLP/AE4/simple_car_alarm.qsf
+/home/camilla.b/DLP/AE4/simple_car_alarm.vhd
+/home/camilla.b/DLP/AE4/simulation/modelsim/tbv1.do
+/home/camilla.b/DLP/AE4/simulation/modelsim/tbv2.do
+/home/camilla.b/DLP/AE4/simulation/modelsim/tbv4.do
+/home/camilla.b/DLP/AE4/simulation/modelsim/tbv5.do
+/home/camilla.b/DLP/AE4/simulation/modelsim/wave.do
+	======= Total: 13 files to archive =======
 
-
-******* Archived project restoration attempt on Thu Nov 21 16:46:21 2019
-Source archive file:	/home/camilla.b/DLP/ALARME/simple_car_alarm.qar
-Archive was extracted into	/home/camilla.b/DLP/ALARME/simple_car_alarm_restored/
-		 - successfully.
+	================ Status: ===============
+All files archived successfully.
