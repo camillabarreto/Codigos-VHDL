@@ -1,0 +1,9 @@
+
+State Machine - |simple_car_alarm|pr_state
+Name pr_state.wait3 pr_state.intrusion pr_state.wait2 pr_state.armed pr_state.wait1 pr_state.disarmed 
+pr_state.disarmed 0 0 0 0 0 0 
+pr_state.wait1 0 0 0 0 1 1 
+pr_state.armed 0 0 0 1 0 1 
+pr_state.wait2 0 0 1 0 0 1 
+pr_state.intrusion 0 1 0 0 0 1 
+pr_state.wait3 1 0 0 0 0 1 
