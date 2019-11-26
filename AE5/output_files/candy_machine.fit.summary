@@ -1,0 +1,12 @@
+Fitter Status : Successful - Mon Nov 11 11:03:21 2019
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : candy_machine
+Top-level Entity Name : candy_machine
+Family : Cyclone
+Device : EP1C3T100A8
+Timing Models : Final
+Total logic elements : 16 / 2,910 ( < 1 % )
+Total pins : 8 / 65 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 0 / 59,904 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )

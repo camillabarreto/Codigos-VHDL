@@ -1,0 +1,35 @@
+|candy_machine
+clk => pr_state[0].CLK
+clk => pr_state[1].CLK
+clk => pr_state[2].CLK
+clk => pr_state[3].CLK
+rst => pr_state[0].ACLR
+rst => pr_state[1].ACLR
+rst => pr_state[2].ACLR
+rst => pr_state[3].ACLR
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e5c => nx_state.OUTPUTSELECT
+e10c => nx_state.OUTPUTSELECT
+e10c => nx_state.OUTPUTSELECT
+e10c => nx_state.DATAA
+e10c => nx_state.OUTPUTSELECT
+e10c => nx_state.OUTPUTSELECT
+e10c => nx_state.DATAA
+e10c => nx_state.DATAA
+e25c => nx_state.DATAA
+e25c => nx_state.DATAA
+e25c => nx_state.DATAA
+e25c => nx_state.DATAA
+d5c <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+d10c <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+candy <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+
+

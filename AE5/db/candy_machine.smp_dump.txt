@@ -1,0 +1,13 @@
+
+State Machine - |candy_machine|pr_state
+Name pr_state.ST45 pr_state.ST40 pr_state.ST35 pr_state.ST30 pr_state.ST25 pr_state.ST20 pr_state.ST15 pr_state.ST10 pr_state.ST5 pr_state.ST0 
+pr_state.ST0 0 0 0 0 0 0 0 0 0 0 
+pr_state.ST5 0 0 0 0 0 0 0 0 1 1 
+pr_state.ST10 0 0 0 0 0 0 0 1 0 1 
+pr_state.ST15 0 0 0 0 0 0 1 0 0 1 
+pr_state.ST20 0 0 0 0 0 1 0 0 0 1 
+pr_state.ST25 0 0 0 0 1 0 0 0 0 1 
+pr_state.ST30 0 0 0 1 0 0 0 0 0 1 
+pr_state.ST35 0 0 1 0 0 0 0 0 0 1 
+pr_state.ST40 0 1 0 0 0 0 0 0 0 1 
+pr_state.ST45 1 0 0 0 0 0 0 0 0 1 

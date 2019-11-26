@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/camilla.b/DLP/candy_machine/simulation/modelsim
+Ecandy_machine
+Z1 w1573470156
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/camilla.b/DLP/candy_machine/simulation/modelsim
+Z5 8../../candy_machine.vhd
+Z6 F../../candy_machine.vhd
+l0
+L5
+Ve=jEg361oAo52X<f;>B[e1
+!s100 LAg]7dHd3@0O59mnff>NN0
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1573642638.594502
+Z9 !s90 -reportprogress|300|-93|-work|work|../../candy_machine.vhd|
+Z10 !s107 ../../candy_machine.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Acandy_machine_v1
+R2
+R3
+Z13 DEx4 work 13 candy_machine 0 22 e=jEg361oAo52X<f;>B[e1
+l18
+L13
+Z14 VVHi@Ao`D_kS]o2aLPin>m0
+Z15 !s100 D^gY566M7SBc`z1P>Gcnd3
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
